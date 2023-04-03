@@ -10,13 +10,5 @@ module.exports = {
     title: `.`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
-      },
-    },
-  ],
+  plugins: [],
 };
