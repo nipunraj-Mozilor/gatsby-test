@@ -191,8 +191,9 @@ export const Head = () => (
       src="https://www.googletagmanager.com/gtag/js?id=UA-257959847-1"
     ></script>
     <script>
-      window.dataLayer = window.dataLayer || []; function gtag()
-      {dataLayer.push(arguments)}
+      window.dataLayer = window.dataLayer || [];
+      function gtag()
+      {dataLayer.push(arguments);}
       gtag('js', new Date()); gtag('config', 'UA-257959847-1');
     </script>
   </>
